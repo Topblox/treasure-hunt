@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <script>
+        // Redirect function
+        function redirect() {
+            // Redirect to the desired URL after a delay
+            setTimeout(function() {
+                window.location.href = "index.html"; // Change this to your desired URL
+            }, 1500); // 5000 milliseconds = 5 seconds
+        }
+
+        // Call the redirect function when the page loads
+        window.onload = redirect;
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="https://404.com">click here</a>.</p>
+    <p>You will be redirected in 5 seconds.</p>
+    <p>You are being redirected because of the following error code:
+        error_notpopup.html/redr
+    </p>
+</body>
+</html>
